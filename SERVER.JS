@@ -20,7 +20,7 @@ const menuitemsroutes = require('./routes/menuitemsroutes.js');
 
 app.use('/menuitems', menuitemsroutes)
 
-
+//for app
 app.listen(3000, () => {
     console.log('listening to port 3000')
 })
